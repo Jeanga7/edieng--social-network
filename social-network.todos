@@ -1,0 +1,78 @@
+SOCIAL-NETWORK:
+
+*Followers
+*Profile
+*Posts
+*Groups
+*Notification
+*Chats
+
+
+-----------------------------------------FRONTEND------------------------------------
+
+-----------------------------------------BACKEND------------------------------------
+
+Server:
+
+App:
+
+---Caddyfile ??
+
+---Authentication:
+	Email
+	Password
+	First name
+	Last Name
+	Date of Birth
+	Avatar/birth (optional but must be present in the form)
+	Nickname (optional but must be present in the form)
+	About me (optional but must be present in the form)
+
+---Images Handling
+
+---Websocket
+
+---migrate
+
+---Dockerfile
+
+---Followers
+	? the profile is private a request will be made
+	: the follow is automatic
+	
+---Profile
+	public profile ? 
+	userInformations
+	every post made by the user
+	Followers and following users
+	: showing these information only to his followers
+	
+---Posts 
+	 => public ? all users can see the post 
+	: => ? only followers will be able to see the post
+	: => ? only the chosen followers could see the post
+
+---Groups
+	must contain: title, description, being able to invite other users
+	once a user is part of a group: 
+					*** he can invite other users to join the group
+					*** he can also create posts and comment posts already created
+					*** these posts and comments will be displayed to other members of the group
+					*** he can create Event making it available for other members of the group:
+								**** Event must contain: Title, Description, Day/Time, 2 options: Going or Not going
+											
+	---> users can also require to be part of the group and for that only the creator of that group will receive a notification (accept/deny)
+	
+---Chat
+	Using Websockets
+	to be able to chat with someone at least one of users must be following the other
+	be able to send emojis	
+	A chat room for every group
+
+---Notification
+	private messages and new notification should be displayed in a different way
+	the User should be notified when:
+		*** he has a private profile and someone sends a following request
+		*** he Receives a group invitation
+		*** if the user is the owner of a group and he receives request from other users to join the group
+		*** he is member of a group and an event is created
