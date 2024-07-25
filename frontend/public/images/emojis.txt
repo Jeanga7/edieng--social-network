@@ -1,0 +1,40 @@
+    Follow Requests
+        Message: "👥 Alice Martin wants to follow you. Approve the request to connect!"
+        Message: "👤 Lucas Durand has requested to follow you. Tap to accept or decline."
+
+    New Followers
+        Message: "🎉 Sophia Johnson just started following you! Check out their profile."
+        Message: "👤 Emma Chen is now your follower. Say hi or see what they’re up to."
+
+    Group Invitations
+        Message: "📩 You're invited to join The Creative Minds group. Tap to join and connect with other creatives!"
+        Message: "👥 Maria Gonzales invited you to the Tech Enthusiasts group. Join the conversation!"
+
+    Group Join Requests
+        Message: "📢 Liam Smith has requested to join your group Adventure Seekers. Review the request now."
+        Message: "📝 Olivia Patel wants to join your group Book Lovers United. Accept or decline their request."
+
+    Group Events
+        Message: "🎈 Don't miss out! The Annual Summer Bash event is happening soon in Fun Lovers Group. RSVP today!"
+        Message: "📅 Fitness Enthusiasts just announced a new event: Yoga in the Park. Check the details and join!"
+
+    Posts and Comments
+        Message: "💬 Ethan Brown commented on your post: 'Love this idea!' See what others are saying."
+        Message: "📝 New comment on your post: Chloe Kim says 'Great insight!' Join the discussion."
+
+    Reactions
+        Message: "👍 Ava Wilson liked your post. See who else reacted!"
+        Message: "❤️ Mia Lee loved your photo! View the full list of reactions."
+
+    Profile Updates
+        Message: "🔄 Jack Thompson updated their profile picture. Check out the new look!"
+        Message: "📸 Emma Garcia has a new cover photo. Take a look at their latest update."
+
+    Messages
+        Message: "✉️ Noah Martinez sent you a new message. Tap to read and reply!"
+        Message: "📩 You've got a new message from Sophia Anderson. Catch up with them now."
+
+    Friend Suggestions
+        Message: "🤝 You might know Lucas Roberts. Send a friend request and expand your network."
+        Message: "👥 Suggested Connection: Lily Clark. Connect with them to grow your social circle."
+
