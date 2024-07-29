@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Keania+One&display=swap');
+
+/* #main-container{
+    border: 5px solid black ;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+} */
+
+/* header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.425) ;
+} */
+
+/* header img{
+    height: 50px;
+} */
+
+/* 
+#middle-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+} */
+
+.auth-form-container{
+    font-family: "Keania One", sans-serif;
+    border: 2px solid black;
+    justify-content: space-around;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.425) ;
+}
+
+.auth-form-container h2{
+    text-align: center;
+}
+.auth-form-container .toggle-form{
+    text-align: center;
+}
+.auth-form-container input{
+    width: 350px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.auth-form-container button{
+    width: 350px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+.auth-form-container button:hover{
+    cursor: pointer;
+}
+
+.form-group{
+    width: 350px;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Jura", sans-serif;
+    font-size: 30px
+} */
