@@ -22,7 +22,6 @@ Ce document décrit les responsabilités et les répartitions des tâches pour c
 
 - **Gestion des Sessions et des Cookies**
   - Utilisation des cookies pour gérer les sessions utilisateur et stocker les jetons JWT.
-  - Fonctionnalité « se souvenir de moi ».
   - **Dépendances** : Support backend pour la génération et la validation des jetons.
 
 - **Fonctionnalité de Déconnexion**
@@ -32,7 +31,7 @@ Ce document décrit les responsabilités et les répartitions des tâches pour c
 ##### **Profil Utilisateur**
 
 - **Création de la Page de Profil Utilisateur**
-  - Affichage des informations utilisateur : Nom, Date de Naissance, Avatar, Surnom, À propos de moi.
+  - Affichage des informations utilisateur : Nom, Date de Naissance, Avatar, Username, À propos de moi.
   - Affichage de l'activité de l'utilisateur (posts) et listes des abonnés/abonnements.
   - **Dépendances** : Point d'API backend pour récupérer les données utilisateur.
 
@@ -52,7 +51,6 @@ Ce document décrit les responsabilités et les répartitions des tâches pour c
 - **Configuration du Serveur Go**
   - Initialisation du serveur Go avec routage pour les points d'API.
   - Implémentation de la journalisation et de la gestion des erreurs.
-  - **Dépendances** : Aucun (Configuration initiale).
 
 - **Middleware d'Authentification**
   - Développement d'un middleware pour la gestion des sessions et des cookies.
@@ -87,7 +85,7 @@ Ce document décrit les responsabilités et les répartitions des tâches pour c
 ##### **Posts et Commentaires**
 
 - **Création des Fonctionnalités de Post**
-  - Permettre aux utilisateurs de créer, modifier et supprimer des posts.
+  - Permettre aux utilisateurs de créer posts.
   - Implémentation de l'upload de fichiers pour les images/GIFs.
   - Éditeur de texte enrichi pour le contenu des posts.
   - **Dépendances** : Points d'API backend pour les opérations CRUD.
