@@ -54,9 +54,14 @@
    - **Description :** Crée un nouveau post avec du contenu texte, images, GIFs...
 
 10. **Récupérer les Posts de l'Utilisateur**
-    - **Endpoint :** `/api/posts/{username}`
+    - **Endpoint :** `/api/posts?user={username}`
     - **Méthode :** `GET`
     - **Description :** Récupère tous les posts d'un utilisateur spécifique.
+
+10. **Récupérer tous les Posts**
+    - **Endpoint :** `/api/posts`
+    - **Méthode :** `GET`
+    - **Description :** Récupère tous les posts.
 
 11. **Ajouter un Commentaire**
     - **Endpoint :** `/api/posts/{postId}/comments/create`
