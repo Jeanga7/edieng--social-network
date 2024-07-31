@@ -159,6 +159,16 @@
     - **Méthode :** `GET`
     - **Description :** Récupère tous les posts existants d'un groupe.
 
+26. **Récupérer l'historique de message d'un Groupe**
+    - **Endpoint :** `/api/groups/{groupId}/messages`
+    - **Méthode :** `GET`
+    - **Description :** Récupère tous les messages existants d'un groupe.
+
+12. **Envoyer un Message dans le groupe**
+    - **Endpoint :** `/api/groups/{groupId}/send`
+    - **Méthode :** `POST`
+    - **Description :** Envoie un message dans un groupe.
+
 27. **Créer un Événement dans un Groupe**
     - **Endpoint :** `/api/groups/{groupId}/events/create`
     - **Méthode :** `POST`
